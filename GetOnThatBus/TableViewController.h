@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  GetOnThatBus
 //
 //  Created by Andrew Webb on 1/21/14.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-NSArray* CTABUSES;
-@interface ViewController : UIViewController
+
+@interface TableViewController : UIViewController
 
 @end

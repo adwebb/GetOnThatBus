@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  GetOnThatBus
 //
 //  Created by Andrew Webb on 1/21/14.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-NSArray* CTABUSES;
-@interface ViewController : UIViewController
+
+@interface DetailViewController : UIViewController
+@property NSDictionary* CTABus;
 
 @end

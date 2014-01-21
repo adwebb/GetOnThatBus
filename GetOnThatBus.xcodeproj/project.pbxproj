@@ -21,6 +21,14 @@
 		C2AF28AB188F036400EA5B99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AF288D188F036400EA5B99 /* UIKit.framework */; };
 		C2AF28B3188F036400EA5B99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2AF28B1188F036400EA5B99 /* InfoPlist.strings */; };
 		C2AF28B5188F036400EA5B99 /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AF28B4188F036400EA5B99 /* GetOnThatBusTests.m */; };
+		C2AF28BF188F072E00EA5B99 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AF28BE188F072E00EA5B99 /* MapKit.framework */; };
+		C2AF28C2188F0F1600EA5B99 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AF28C1188F0F1600EA5B99 /* DetailViewController.m */; };
+		C2AF28C5188F167000EA5B99 /* BusStopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AF28C4188F167000EA5B99 /* BusStopAnnotation.m */; };
+		C2AF28C8188F226200EA5B99 /* metra.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AF28C6188F226200EA5B99 /* metra.png */; };
+		C2AF28C9188F226200EA5B99 /* pace.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AF28C7188F226200EA5B99 /* pace.png */; };
+		C2AF28CD188F234E00EA5B99 /* cta.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AF28CC188F234E00EA5B99 /* cta.png */; };
+		C2AF28CF188F249D00EA5B99 /* mobilemakers.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AF28CE188F249D00EA5B99 /* mobilemakers.png */; };
+		C2AF28D2188F2BEB00EA5B99 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AF28D1188F2BEB00EA5B99 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,17 @@
 		C2AF28B0188F036400EA5B99 /* GetOnThatBusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetOnThatBusTests-Info.plist"; sourceTree = "<group>"; };
 		C2AF28B2188F036400EA5B99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2AF28B4188F036400EA5B99 /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		C2AF28BE188F072E00EA5B99 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C2AF28C0188F0F1600EA5B99 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		C2AF28C1188F0F1600EA5B99 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		C2AF28C3188F167000EA5B99 /* BusStopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopAnnotation.h; sourceTree = "<group>"; };
+		C2AF28C4188F167000EA5B99 /* BusStopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopAnnotation.m; sourceTree = "<group>"; };
+		C2AF28C6188F226200EA5B99 /* metra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metra.png; sourceTree = "<group>"; };
+		C2AF28C7188F226200EA5B99 /* pace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pace.png; sourceTree = "<group>"; };
+		C2AF28CC188F234E00EA5B99 /* cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cta.png; sourceTree = "<group>"; };
+		C2AF28CE188F249D00EA5B99 /* mobilemakers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobilemakers.png; sourceTree = "<group>"; };
+		C2AF28D0188F2BEB00EA5B99 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C2AF28D1188F2BEB00EA5B99 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AF28BF188F072E00EA5B99 /* MapKit.framework in Frameworks */,
 				C2AF288C188F036400EA5B99 /* CoreGraphics.framework in Frameworks */,
 				C2AF288E188F036400EA5B99 /* UIKit.framework in Frameworks */,
 				C2AF288A188F036400EA5B99 /* Foundation.framework in Frameworks */,
@@ -101,6 +121,7 @@
 		C2AF2888188F036400EA5B99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF28BE188F072E00EA5B99 /* MapKit.framework */,
 				C2AF2889188F036400EA5B99 /* Foundation.framework */,
 				C2AF288B188F036400EA5B99 /* CoreGraphics.framework */,
 				C2AF288D188F036400EA5B99 /* UIKit.framework */,
@@ -112,11 +133,17 @@
 		C2AF288F188F036400EA5B99 /* GetOnThatBus */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF28C0188F0F1600EA5B99 /* DetailViewController.h */,
+				C2AF28C1188F0F1600EA5B99 /* DetailViewController.m */,
 				C2AF2898188F036400EA5B99 /* AppDelegate.h */,
 				C2AF2899188F036400EA5B99 /* AppDelegate.m */,
 				C2AF289B188F036400EA5B99 /* Main.storyboard */,
+				C2AF28D0188F2BEB00EA5B99 /* TableViewController.h */,
+				C2AF28D1188F2BEB00EA5B99 /* TableViewController.m */,
 				C2AF289E188F036400EA5B99 /* ViewController.h */,
 				C2AF289F188F036400EA5B99 /* ViewController.m */,
+				C2AF28C3188F167000EA5B99 /* BusStopAnnotation.h */,
+				C2AF28C4188F167000EA5B99 /* BusStopAnnotation.m */,
 				C2AF28A1188F036400EA5B99 /* Images.xcassets */,
 				C2AF2890188F036400EA5B99 /* Supporting Files */,
 			);
@@ -126,6 +153,10 @@
 		C2AF2890188F036400EA5B99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF28CE188F249D00EA5B99 /* mobilemakers.png */,
+				C2AF28CC188F234E00EA5B99 /* cta.png */,
+				C2AF28C6188F226200EA5B99 /* metra.png */,
+				C2AF28C7188F226200EA5B99 /* pace.png */,
 				C2AF2891188F036400EA5B99 /* GetOnThatBus-Info.plist */,
 				C2AF2892188F036400EA5B99 /* InfoPlist.strings */,
 				C2AF2895188F036400EA5B99 /* main.m */,
@@ -228,9 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AF28CD188F234E00EA5B99 /* cta.png in Resources */,
 				C2AF28A2188F036400EA5B99 /* Images.xcassets in Resources */,
+				C2AF28C9188F226200EA5B99 /* pace.png in Resources */,
+				C2AF28C8188F226200EA5B99 /* metra.png in Resources */,
 				C2AF2894188F036400EA5B99 /* InfoPlist.strings in Resources */,
 				C2AF289D188F036400EA5B99 /* Main.storyboard in Resources */,
+				C2AF28CF188F249D00EA5B99 /* mobilemakers.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2AF28A0188F036400EA5B99 /* ViewController.m in Sources */,
+				C2AF28D2188F2BEB00EA5B99 /* TableViewController.m in Sources */,
+				C2AF28C5188F167000EA5B99 /* BusStopAnnotation.m in Sources */,
 				C2AF289A188F036400EA5B99 /* AppDelegate.m in Sources */,
 				C2AF2896188F036400EA5B99 /* main.m in Sources */,
+				C2AF28C2188F0F1600EA5B99 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
